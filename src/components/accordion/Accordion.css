@@ -3,7 +3,7 @@
     height: 70vh;
     overflow: auto;
     border-radius: 0.5rem;
-    /* background-color: rgb(236, 212, 212); */
+    
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     align-items: center;
     text-align: center;
     margin: 5px;
-    /* border: 2px red solid; */
+   
     border-radius: 0.9rem;
     background-color: white;
     padding: 3px;
