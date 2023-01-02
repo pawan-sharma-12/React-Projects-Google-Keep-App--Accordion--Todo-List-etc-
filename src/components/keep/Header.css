@@ -1,0 +1,112 @@
+.header{
+    width: 100%;
+    height: 10vh;
+    /* border: 2px solid green; */
+    background-color: #101010;
+   
+}
+.inner_header{
+    height: 100%;
+    width: 60%;
+    display: block;
+    /* background-color: red; */
+    margin: 0 auto;
+
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left ;
+}
+.logo_container h1{
+    vertical-align: center;
+    color: green;
+    display: table-cell;
+    /* border: 2px solid blue; */
+    vertical-align: middle;
+    font-weight: 400;
+    
+}
+.logo_container h1 span{
+     font-weight: 600;
+     color : white;
+}
+.navigation{
+    float: right;
+    height: 100%;
+    display: table;
+    
+}
+.navigation a{
+height: 100%;
+display: table;
+float: left;
+padding: 0px 20px;
+
+cursor: pointer;
+
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    color : white;
+   
+}
+.navigation a:last-child{
+    padding-right: 0px;
+}
+.footer{
+  
+    width: 100%;
+    height: 40px;
+    border: 2px solid yellow;
+    
+   
+}
+.footer p{
+    margin: 0px auto;
+    border: 2px solid red;
+    text-align: center;
+    line-height: 40px;
+
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    /* border :2px solid red; */
+    width: 200px;
+    box-shadow: 0px 1px 7px rgb(128,128,128);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 0.7rem;
+}
+
+.note h1{
+   
+    margin:  0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 2rem;
+}
+.note p{
+  
+    margin-top: 0px;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+.delete_outline{
+    float :right;
+   cursor: pointer;
+    color: rgb(242, 154, 154);
+    margin: 0px 0px auto auto;
+   
+}
+
+.note_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

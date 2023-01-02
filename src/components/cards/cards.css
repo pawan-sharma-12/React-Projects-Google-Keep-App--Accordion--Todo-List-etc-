@@ -1,0 +1,8 @@
+.cards_body{
+  display: flex;
+  flex-direction: row;
+  
+}
+.wrapper{
+  flex-wrap: wrap;
+}

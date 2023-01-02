@@ -1,0 +1,67 @@
+.main_div_incdec{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vw;
+    border: 2px solid green;
+    background-color: greenyellow;
+}
+.center_div_incdec{
+    border: 2px solid blue;
+    margin-top : 5%;
+    width: 30%;
+    height:40vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    background-color: rgb(247, 246, 246);
+    border-radius: 3rem;
+    overflow: hidden;
+}
+.heading_incdec{
+    /* padding: 10px; */
+    width: 100%; 
+    /* border: 2px solid green;  */
+     margin-top: 30%;
+     height: 10%;
+    text-align: center;
+    background-color: rgb(70, 70, 116);
+    
+}
+/* .inc_btn :hover{
+    cursor: pointer;
+    background-color: purple;
+    opacity: 0.5;
+} */
+.inc_btn :hover{
+    color: green;
+}
+.dec_btn :hover{
+    color: red;
+}
+.inc_btn{
+  
+    margin-top: 0; 
+    font-size: 24px; 
+    border-radius: 0.5rem; 
+    padding: 10px; 
+    background-color: rgb(70, 70, 116);
+    /* border: 2px solid yellow; */
+    
+}
+.div_btn{
+    margin-top: 10%;
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.clock{
+    color : red;
+    border: 2px solid blue;
+}
